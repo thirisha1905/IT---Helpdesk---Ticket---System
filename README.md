@@ -1,41 +1,28 @@
 # IT Helpdesk Ticket Management System
 
-## Overview
-This project simulates a real-world IT helpdesk ticket management workflow used by technical support teams. It is designed to demonstrate ticket intake, issue categorization, prioritization, status tracking, and resolution documentation.
+A simple helpdesk system built to simulate real-world technical support workflows.
 
-## Objective
-- Simulate technical support ticket handling process  
-- Practice issue categorization and priority assignment  
-- Improve troubleshooting workflow understanding  
-- Build hands-on support operations experience  
+## Features
+- Ticket creation and status tracking
+- Issue categorization (Hardware / Software / Network)
+- Priority assignment
+- Basic automation logic
+- User and admin roles (basic)
 
-## Tools Used
-- Google Forms (Ticket submission)  
-- Google Sheets (Ticket tracking and management)  
+## Tech Stack
+- Python (backend logic)
+- File-based storage / JSON
+- GitHub for version control
 
-## System Workflow
-1. User submits support request through ticket form  
-2. Ticket data is automatically stored in Google Sheets  
-3. Issues are categorized based on type and priority  
-4. Ticket status is updated (Open / In Progress / Resolved)  
-5. Resolution details are documented  
+## Purpose
+This project is built to practice real IT support scenarios and ticket handling workflows used in companies.
 
-## Key Features
-- Automated ticket intake system  
-- Priority-based issue classification  
-- Status tracking workflow  
-- Resolution documentation support  
-- Real-world helpdesk process simulation  
-
-## Learning Outcomes
-- Understanding of helpdesk operations  
-- Ticket lifecycle management  
-- Issue prioritization logic  
-- Customer support workflow handling  
-- Documentation and support process optimization  
+## How to Run
+1. Clone the repository
+2. Run main script
+3. Create and manage tickets via console
 
 ## Future Improvements
-- Add dashboard visualization  
-- SLA-based ticket tracking  
-- Auto email notification integration  
-
+- Web UI
+- Database integration
+- Email notification system
